@@ -18,6 +18,7 @@ const MyNavbar = ({ onLanguageChange }) => {
             <Nav.Link href="#contact">{t('navbar.contact')}</Nav.Link>
           </Nav>
           <div>
+          <Button></Button>
             <Button variant="outline-light" size="sm" onClick={() => onLanguageChange('de')}>DE</Button>{' '}
             <Button variant="outline-light" size="sm" onClick={() => onLanguageChange('en')}>EN</Button>
           </div>
